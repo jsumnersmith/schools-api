@@ -27,4 +27,6 @@ Gets all schools in the school DB.
 ### `GET /api/schools?districtID=`
 Gets all schools for a given district ID.
 
-
+## TODOS
+- [ ] Deploy and move DB to something hosted
+- [ ] Add README data about "freshness and source of data"
