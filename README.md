@@ -7,6 +7,7 @@ Gets all districts in the district DB.
 
 ### `GET /api/districts?search=`
 Search all districts in the district DB.
+
 _N.B. Use `_` to represent spaces in a district name._
 
 ### `GET /api/districts?state=`
