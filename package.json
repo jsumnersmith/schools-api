@@ -4,7 +4,9 @@
   "description": "Simple API for looking up districts and schools in the US.",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js",
+    "import-db": "node data/import.js import",
+    "delete-db": "node data/import.js delete"
   },
   "author": "jsumnersmith@gmail.com",
   "license": "ISC",

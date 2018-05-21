@@ -46,7 +46,7 @@ const schools = () => {
   })
 }
 
-module.exports.empty = () => {
+module.exports.delete = () => {
   db.emptyAll((err) => {
     if (err) console.error(err);
     console.log('Successfully Emptied DB.')
