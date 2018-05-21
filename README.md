@@ -5,9 +5,9 @@ A basic API for accessing names of districts and their schools in the US.
 Run `npm install` to install dependencies.
 
 ### Scripts
-- 'npm start' Starts node app
-- 'npm run import-db' Bootstraps data into DBs
-- 'npm run delete-db' Removes all data from DBs
+- `npm start` Starts node app
+- `npm run import-db` Bootstraps data into DBs
+- `npm run delete-db` Removes all data from DBs
 
 ## Endpoints
 ### `GET /api/districts`
