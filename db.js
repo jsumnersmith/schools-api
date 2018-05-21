@@ -25,7 +25,6 @@ module.exports = {
   db.createReadStream()
     .on('data', (data) =>{
       let district = JSON.parse(data.value);
-      console.log(search)
       if (district.name.match(new RegExp(search, 'ig'))) {
         matches.push(district);
       }
@@ -38,7 +37,6 @@ module.exports = {
     })
     .on('end', ()=>{
       console.log('DB read stream ended.');
-      console.log(matches)
       return callback(null, matches);
     })
   },
