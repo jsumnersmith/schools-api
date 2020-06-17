@@ -10,7 +10,7 @@ app.get('/api/districts', (req, res) => {
     let state = req.query.state;
     api.districtsByState(state, (err, districts) => err ? res.json(err) : res.json(districts));
   } else {
-    api.allDistricts(search, (err, districts) => err ? res.json(err) : res.json(districts));
+    api.allDistricts((err, districts) => err ? res.json(err) : res.json(districts));
   }
 })
 
